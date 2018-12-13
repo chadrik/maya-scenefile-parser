@@ -19,6 +19,7 @@ setup(
     keywords=["maya", "parser"],
     url="https://github.com/mottosso/maya-scenefile-parser",
     packages=find_packages(),
+    package_data={"maya_scenefile_parser": ["modules/maya/2012/typeids.dat"]},
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
